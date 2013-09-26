@@ -1,0 +1,1437 @@
+
+[*] Mapped Address: 00570000
+[*] Base Of Code: 00580000
+[*] Default Load Address: 7DE70000
+[*] ExportDirectory RVA:  000101E8
+[*] ExportDirectory Size: 63153
+[?] First Section Offset: 000001D0(464)
+[?] Name: .text
+[?] RVA:  00010000
+[?] PtrToRawData:  00000400
+[?] SizeOfRawData: 875008
+[?] Found RVA in Section : .text [00010000]
+[*] Section for Export Table:
+[*] Name: .text
+[*] RVA:  00010000
+[*] PtrToRawData:  00000400
+[*] SizeOfRawData: 875008
+[*] LoadLibrary address: 77770000
+[*] GetProcAddress(NtCreateFile): 777900B4
+[*] Decoded Instructions...
+ 777900b4 (05) b852000000               MOV EAX, 0x52
+ 777900b9 (02) 33c9                     XOR ECX, ECX
+ 777900bb (04) 8d542404                 LEA EDX, [ESP+0x4]
+ 777900bf (07) 64ff15c0000000           CALL DWORD [FS:0xc0]
+ 777900c6 (03) 83c404                   ADD ESP, 0x4
+ 777900c9 (03) c22c00                   RET 0x2c
+ 777900cc (05) b853000000               MOV EAX, 0x53
+ 777900d1 (02) 33c9                     XOR ECX, ECX
+ 777900d3 (04) 8d542404                 LEA EDX, [ESP+0x4]
+ 777900d7 (07) 64ff15c0000000           CALL DWORD [FS:0xc0]
+[*] Decoded Instruction Size: 42
+[*] Parsing Export Table...
+[?] Found RVA in Section : .text [00010000]
+[*] Exports Name: ntdll.dll
+[?] Ordinal Base: 1
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: A_SHAFinal
+[?] Ordinal: 17, RVA: 0006CC77
+[?] Function Entry Ptr: 005CD077
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: A_SHAInit
+[?] Ordinal: 18, RVA: 0006AD2D
+[?] Function Entry Ptr: 005CB12D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: A_SHAUpdate
+[?] Ordinal: 19, RVA: 0006CD47
+[?] Function Entry Ptr: 005CD147
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcAdjustCompletionListConcurrencyCount
+[?] Ordinal: 20, RVA: 000AD459
+[?] Function Entry Ptr: 0060D859
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcFreeCompletionListMessage
+[?] Ordinal: 21, RVA: 000AD0D8
+[?] Function Entry Ptr: 0060D4D8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetCompletionListLastMessageInformation
+[?] Ordinal: 22, RVA: 000AD1F4
+[?] Function Entry Ptr: 0060D5F4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetCompletionListMessageAttributes
+[?] Ordinal: 23, RVA: 000AD1C0
+[?] Function Entry Ptr: 0060D5C0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetHeaderSize
+[?] Ordinal: 24, RVA: 000707D7
+[?] Function Entry Ptr: 005D0BD7
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetMessageAttribute
+[?] Ordinal: 25, RVA: 0007076C
+[?] Function Entry Ptr: 005D0B6C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetMessageFromCompletionList
+[?] Ordinal: 26, RVA: 000ACF21
+[?] Function Entry Ptr: 0060D321
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcGetOutstandingCompletionListMessageCount
+[?] Ordinal: 27, RVA: 000AD21B
+[?] Function Entry Ptr: 0060D61B
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcInitializeMessageAttribute
+[?] Ordinal: 28, RVA: 000707A3
+[?] Function Entry Ptr: 005D0BA3
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcMaxAllowedMessageLength
+[?] Ordinal: 29, RVA: 000AD47D
+[?] Function Entry Ptr: 0060D87D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcRegisterCompletionList
+[?] Ordinal: 30, RVA: 000AD3D4
+[?] Function Entry Ptr: 0060D7D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcRegisterCompletionListWorkerThread
+[?] Ordinal: 31, RVA: 000AD23A
+[?] Function Entry Ptr: 0060D63A
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcRundownCompletionList
+[?] Ordinal: 32, RVA: 000AD43D
+[?] Function Entry Ptr: 0060D83D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcUnregisterCompletionList
+[?] Ordinal: 33, RVA: 000AD421
+[?] Function Entry Ptr: 0060D821
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: AlpcUnregisterCompletionListWorkerThread
+[?] Ordinal: 34, RVA: 000AD315
+[?] Function Entry Ptr: 0060D715
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrAllocateCaptureBuffer
+[?] Ordinal: 35, RVA: 000ACC0F
+[?] Function Entry Ptr: 0060D00F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrAllocateMessagePointer
+[?] Ordinal: 36, RVA: 000ACC2F
+[?] Function Entry Ptr: 0060D02F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrCaptureMessageBuffer
+[?] Ordinal: 37, RVA: 000ACC3F
+[?] Function Entry Ptr: 0060D03F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrCaptureMessageMultiUnicodeStringsInPlace
+[?] Ordinal: 38, RVA: 000ACCE8
+[?] Function Entry Ptr: 0060D0E8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrCaptureMessageString
+[?] Ordinal: 39, RVA: 000ACC4F
+[?] Function Entry Ptr: 0060D04F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrCaptureTimeout
+[?] Ordinal: 40, RVA: 000ACC5F
+[?] Function Entry Ptr: 0060D05F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrClientCallServer
+[?] Ordinal: 41, RVA: 000ACBFF
+[?] Function Entry Ptr: 0060CFFF
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrClientConnectToServer
+[?] Ordinal: 42, RVA: 00046159
+[?] Function Entry Ptr: 005A6559
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrFreeCaptureBuffer
+[?] Ordinal: 43, RVA: 000ACC1F
+[?] Function Entry Ptr: 0060D01F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrGetProcessId
+[?] Ordinal: 44, RVA: 000ACC92
+[?] Function Entry Ptr: 0060D092
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrIdentifyAlertableThread
+[?] Ordinal: 45, RVA: 000ACBF5
+[?] Function Entry Ptr: 0060CFF5
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrSetPriorityClass
+[?] Ordinal: 46, RVA: 000A1B7F
+[?] Function Entry Ptr: 00601F7F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: CsrVerifyRegion
+[?] Ordinal: 47, RVA: 000ACD64
+[?] Function Entry Ptr: 0060D164
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgBreakPoint
+[?] Ordinal: 48, RVA: 0001000C
+[?] Function Entry Ptr: 0057040C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgPrint
+[?] Ordinal: 49, RVA: 00070B4A
+[?] Function Entry Ptr: 005D0F4A
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgPrintEx
+[?] Ordinal: 50, RVA: 000758C8
+[?] Function Entry Ptr: 005D5CC8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgPrintReturnControlC
+[?] Ordinal: 51, RVA: 000AD54D
+[?] Function Entry Ptr: 0060D94D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgPrompt
+[?] Ordinal: 52, RVA: 000AD488
+[?] Function Entry Ptr: 0060D888
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgQueryDebugFilterState
+[?] Ordinal: 53, RVA: 000AD4CE
+[?] Function Entry Ptr: 0060D8CE
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgSetDebugFilterState
+[?] Ordinal: 54, RVA: 000AD4DE
+[?] Function Entry Ptr: 0060D8DE
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiConnectToDbg
+[?] Ordinal: 55, RVA: 0009F7FB
+[?] Function Entry Ptr: 005FFBFB
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiContinue
+[?] Ordinal: 56, RVA: 0009F8A3
+[?] Function Entry Ptr: 005FFCA3
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiConvertStateChangeStructure
+[?] Ordinal: 57, RVA: 0009F9CC
+[?] Function Entry Ptr: 005FFDCC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiDebugActiveProcess
+[?] Ordinal: 58, RVA: 0009F98A
+[?] Function Entry Ptr: 005FFD8A
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiGetThreadDebugObject
+[?] Ordinal: 59, RVA: 0009F84D
+[?] Function Entry Ptr: 005FFC4D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiIssueRemoteBreakin
+[?] Ordinal: 60, RVA: 0009F943
+[?] Function Entry Ptr: 005FFD43
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiRemoteBreakin
+[?] Ordinal: 61, RVA: 0009F8EA
+[?] Function Entry Ptr: 005FFCEA
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiSetThreadDebugObject
+[?] Ordinal: 62, RVA: 0009F85F
+[?] Function Entry Ptr: 005FFC5F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiStopDebugging
+[?] Ordinal: 63, RVA: 0009F8C8
+[?] Function Entry Ptr: 005FFCC8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUiWaitStateChange
+[?] Ordinal: 64, RVA: 0009F87C
+[?] Function Entry Ptr: 005FFC7C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: DbgUserBreakPoint
+[?] Ordinal: 65, RVA: 00010008
+[?] Function Entry Ptr: 00570408
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwCreateTraceInstanceId
+[?] Ordinal: 66, RVA: 000DAD04
+[?] Function Entry Ptr: 0063B104
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwDeliverDataBlock
+[?] Ordinal: 67, RVA: 000571AB
+[?] Function Entry Ptr: 005B75AB
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEnumerateProcessRegGuids
+[?] Ordinal: 68, RVA: 000DB257
+[?] Function Entry Ptr: 0063B657
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventActivityIdControl
+[?] Ordinal: 69, RVA: 0006E2D6
+[?] Function Entry Ptr: 005CE6D6
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventEnabled
+[?] Ordinal: 70, RVA: 00038922
+[?] Function Entry Ptr: 00598D22
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventProviderEnabled
+[?] Ordinal: 71, RVA: 000DADF6
+[?] Function Entry Ptr: 0063B1F6
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventRegister
+[?] Ordinal: 72, RVA: 0003F770
+[?] Function Entry Ptr: 0059FB70
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventUnregister
+[?] Ordinal: 73, RVA: 0004D989
+[?] Function Entry Ptr: 005ADD89
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWrite
+[?] Ordinal: 74, RVA: 000568B9
+[?] Function Entry Ptr: 005B6CB9
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteEndScenario
+[?] Ordinal: 75, RVA: 000DB501
+[?] Function Entry Ptr: 0063B901
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteEx
+[?] Ordinal: 76, RVA: 000DB354
+[?] Function Entry Ptr: 0063B754
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteFull
+[?] Ordinal: 77, RVA: 000DB387
+[?] Function Entry Ptr: 0063B787
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteNoRegistration
+[?] Ordinal: 78, RVA: 00077548
+[?] Function Entry Ptr: 005D7948
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteStartScenario
+[?] Ordinal: 79, RVA: 000DB3B7
+[?] Function Entry Ptr: 0063B7B7
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteString
+[?] Ordinal: 80, RVA: 000DAED4
+[?] Function Entry Ptr: 0063B2D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwEventWriteTransfer
+[?] Ordinal: 81, RVA: 0006E38C
+[?] Function Entry Ptr: 005CE78C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwGetTraceEnableFlags
+[?] Ordinal: 82, RVA: 0005A160
+[?] Function Entry Ptr: 005BA560
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwGetTraceEnableLevel
+[?] Ordinal: 83, RVA: 0005A12A
+[?] Function Entry Ptr: 005BA52A
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwGetTraceLoggerHandle
+[?] Ordinal: 84, RVA: 0005A0C1
+[?] Function Entry Ptr: 005BA4C1
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwLogTraceEvent
+[?] Ordinal: 85, RVA: 000DB5C7
+[?] Function Entry Ptr: 0063B9C7
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwNotificationRegister
+[?] Ordinal: 86, RVA: 0003F5E8
+[?] Function Entry Ptr: 0059F9E8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwNotificationUnregister
+[?] Ordinal: 87, RVA: 0004D8F3
+[?] Function Entry Ptr: 005ADCF3
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwProcessPrivateLoggerRequest
+[?] Ordinal: 88, RVA: 00077885
+[?] Function Entry Ptr: 005D7C85
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwRegisterSecurityProvider
+[?] Ordinal: 89, RVA: 000DADC6
+[?] Function Entry Ptr: 0063B1C6
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwRegisterTraceGuidsA
+[?] Ordinal: 90, RVA: 00069B0B
+[?] Function Entry Ptr: 005C9F0B
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwRegisterTraceGuidsW
+[?] Ordinal: 91, RVA: 0003F8F9
+[?] Function Entry Ptr: 0059FCF9
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwReplyNotification
+[?] Ordinal: 92, RVA: 000DDCEA
+[?] Function Entry Ptr: 0063E0EA
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwSendNotification
+[?] Ordinal: 93, RVA: 000793D0
+[?] Function Entry Ptr: 005D97D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwSetMark
+[?] Ordinal: 94, RVA: 000DB877
+[?] Function Entry Ptr: 0063BC77
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwTraceEventInstance
+[?] Ordinal: 95, RVA: 000DB632
+[?] Function Entry Ptr: 0063BA32
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwTraceMessage
+[?] Ordinal: 96, RVA: 00066E6D
+[?] Function Entry Ptr: 005C726D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwTraceMessageVa
+[?] Ordinal: 97, RVA: 00066E91
+[?] Function Entry Ptr: 005C7291
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwUnregisterTraceGuids
+[?] Ordinal: 98, RVA: 0004D9CE
+[?] Function Entry Ptr: 005ADDCE
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwWriteUMSecurityEvent
+[?] Ordinal: 99, RVA: 000DB151
+[?] Function Entry Ptr: 0063B551
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwpCreateEtwThread
+[?] Ordinal: 100, RVA: 000DE257
+[?] Function Entry Ptr: 0063E657
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwpGetCpuSpeed
+[?] Ordinal: 101, RVA: 000798E9
+[?] Function Entry Ptr: 005D9CE9
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EtwpNotificationThread
+[?] Ordinal: 102, RVA: 00057151
+[?] Function Entry Ptr: 005B7551
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EvtIntReportAuthzEventAndSourceAsync
+[?] Ordinal: 103, RVA: 000DEC79
+[?] Function Entry Ptr: 0063F079
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: EvtIntReportEventAndSourceAsync
+[?] Ordinal: 104, RVA: 000DEC43
+[?] Function Entry Ptr: 0063F043
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: ExpInterlockedPopEntrySListEnd
+[?] Ordinal: 14, RVA: 000326F3
+[?] Function Entry Ptr: 00592AF3
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: ExpInterlockedPopEntrySListFault
+[?] Ordinal: 15, RVA: 000326F1
+[?] Function Entry Ptr: 00592AF1
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: ExpInterlockedPopEntrySListResume
+[?] Ordinal: 16, RVA: 000326BB
+[?] Function Entry Ptr: 00592ABB
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiFastSystemCall
+[?] Ordinal: 105, RVA: 000101D0
+[?] Function Entry Ptr: 005705D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiFastSystemCallRet
+[?] Ordinal: 106, RVA: 000101D4
+[?] Function Entry Ptr: 005705D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiIntSystemCall
+[?] Ordinal: 107, RVA: 000101E0
+[?] Function Entry Ptr: 005705E0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiRaiseUserExceptionDispatcher
+[?] Ordinal: 108, RVA: 00010174
+[?] Function Entry Ptr: 00570574
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiUserApcDispatcher
+[?] Ordinal: 109, RVA: 00010028
+[?] Function Entry Ptr: 00570428
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiUserCallbackDispatcher
+[?] Ordinal: 110, RVA: 000100DC
+[?] Function Entry Ptr: 005704DC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: KiUserExceptionDispatcher
+[?] Ordinal: 111, RVA: 00010124
+[?] Function Entry Ptr: 00570524
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrAccessResource
+[?] Ordinal: 112, RVA: 00041FC0
+[?] Function Entry Ptr: 005A23C0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrAddLoadAsDataTable
+[?] Ordinal: 113, RVA: 000595AE
+[?] Function Entry Ptr: 005B99AE
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrAddRefDll
+[?] Ordinal: 114, RVA: 00040093
+[?] Function Entry Ptr: 005A0493
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrDisableThreadCalloutsForDll
+[?] Ordinal: 115, RVA: 00040E26
+[?] Function Entry Ptr: 005A1226
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrEnumResources
+[?] Ordinal: 116, RVA: 000ADE19
+[?] Function Entry Ptr: 0060E219
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrEnumerateLoadedModules
+[?] Ordinal: 117, RVA: 0003BFC7
+[?] Function Entry Ptr: 0059C3C7
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrFindEntryForAddress
+[?] Ordinal: 118, RVA: 00059270
+[?] Function Entry Ptr: 005B9670
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrFindResourceDirectory_U
+[?] Ordinal: 119, RVA: 000AE207
+[?] Function Entry Ptr: 0060E607
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrFindResourceEx_U
+[?] Ordinal: 120, RVA: 0004FCF5
+[?] Function Entry Ptr: 005B00F5
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrFindResource_U
+[?] Ordinal: 121, RVA: 00041FDD
+[?] Function Entry Ptr: 005A23DD
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrFlushAlternateResourceModules
+[?] Ordinal: 122, RVA: 000AE05B
+[?] Function Entry Ptr: 0060E45B
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetDllHandle
+[?] Ordinal: 123, RVA: 0002FD37
+[?] Function Entry Ptr: 00590137
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetDllHandleByMapping
+[?] Ordinal: 124, RVA: 00059525
+[?] Function Entry Ptr: 005B9925
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetDllHandleByName
+[?] Ordinal: 125, RVA: 00057ABD
+[?] Function Entry Ptr: 005B7EBD
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetDllHandleEx
+[?] Ordinal: 126, RVA: 0002FD58
+[?] Function Entry Ptr: 00590158
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetFailureData
+[?] Ordinal: 127, RVA: 000A06C4
+[?] Function Entry Ptr: 00600AC4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetFileNameFromLoadAsDataTable
+[?] Ordinal: 128, RVA: 000AD696
+[?] Function Entry Ptr: 0060DA96
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetProcedureAddress
+[?] Ordinal: 129, RVA: 000301EA
+[?] Function Entry Ptr: 005905EA
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrGetProcedureAddressEx
+[?] Ordinal: 130, RVA: 0003020B
+[?] Function Entry Ptr: 0059060B
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrHotPatchRoutine
+[?] Ordinal: 131, RVA: 0009FCB4
+[?] Function Entry Ptr: 006000B4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrInitShimEngineDynamic
+[?] Ordinal: 132, RVA: 000756DD
+[?] Function Entry Ptr: 005D5ADD
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrInitializeThunk
+[?] Ordinal: 133, RVA: 00039EE9
+[?] Function Entry Ptr: 0059A2E9
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrLoadAlternateResourceModule
+[?] Ordinal: 134, RVA: 00076A6D
+[?] Function Entry Ptr: 005D6E6D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrLoadAlternateResourceModuleEx
+[?] Ordinal: 135, RVA: 000551D0
+[?] Function Entry Ptr: 005B55D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrLoadDll
+[?] Ordinal: 136, RVA: 0003C4DD
+[?] Function Entry Ptr: 0059C8DD
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrLockLoaderLock
+[?] Ordinal: 137, RVA: 00036BC5
+[?] Function Entry Ptr: 00596FC5
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrOpenImageFileOptionsKey
+[?] Ordinal: 138, RVA: 000521F8
+[?] Function Entry Ptr: 005B25F8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrProcessRelocationBlock
+[?] Ordinal: 139, RVA: 000AEACF
+[?] Function Entry Ptr: 0060EECF
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrQueryImageFileExecutionOptions
+[?] Ordinal: 140, RVA: 000610D2
+[?] Function Entry Ptr: 005C14D2
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrQueryImageFileExecutionOptionsEx
+[?] Ordinal: 141, RVA: 000610F9
+[?] Function Entry Ptr: 005C14F9
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrQueryImageFileKeyOption
+[?] Ordinal: 142, RVA: 00051C42
+[?] Function Entry Ptr: 005B2042
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrQueryModuleServiceTags
+[?] Ordinal: 143, RVA: 000A05FE
+[?] Function Entry Ptr: 006009FE
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrQueryProcessModuleInformation
+[?] Ordinal: 144, RVA: 000A05D4
+[?] Function Entry Ptr: 006009D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrRegisterDllNotification
+[?] Ordinal: 145, RVA: 0006E011
+[?] Function Entry Ptr: 005CE411
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrRemoveLoadAsDataTable
+[?] Ordinal: 146, RVA: 0005A749
+[?] Function Entry Ptr: 005BAB49
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrResFindResource
+[?] Ordinal: 147, RVA: 0006323C
+[?] Function Entry Ptr: 005C363C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrResFindResourceDirectory
+[?] Ordinal: 148, RVA: 0003DAA5
+[?] Function Entry Ptr: 0059DEA5
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrResGetRCConfig
+[?] Ordinal: 149, RVA: 0005C63F
+[?] Function Entry Ptr: 005BCA3F
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrResRelease
+[?] Ordinal: 150, RVA: 000AF042
+[?] Function Entry Ptr: 0060F442
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrResSearchResource
+[?] Ordinal: 151, RVA: 0003CDEC
+[?] Function Entry Ptr: 0059D1EC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrRscIsTypeExist
+[?] Ordinal: 152, RVA: 00054F13
+[?] Function Entry Ptr: 005B5313
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrSetAppCompatDllRedirectionCallback
+[?] Ordinal: 153, RVA: 000A05F4
+[?] Function Entry Ptr: 006009F4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrSetDllManifestProber
+[?] Ordinal: 154, RVA: 00045D42
+[?] Function Entry Ptr: 005A6142
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrSetMUICacheType
+[?] Ordinal: 155, RVA: 000AE1B3
+[?] Function Entry Ptr: 0060E5B3
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrShutdownProcess
+[?] Ordinal: 156, RVA: 0004D5C1
+[?] Function Entry Ptr: 005AD9C1
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrShutdownThread
+[?] Ordinal: 157, RVA: 00057D7D
+[?] Function Entry Ptr: 005B817D
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .data [00100000]
+[?] Found Function: LdrSystemDllInitBlock
+[?] Ordinal: 158, RVA: 00106748
+[?] Function Entry Ptr: 0064C748
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrUnloadAlternateResourceModule
+[?] Ordinal: 159, RVA: 0005A638
+[?] Function Entry Ptr: 005BAA38
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrUnloadAlternateResourceModuleEx
+[?] Ordinal: 160, RVA: 0005A650
+[?] Function Entry Ptr: 005BAA50
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrUnloadDll
+[?] Ordinal: 161, RVA: 00041287
+[?] Function Entry Ptr: 005A1687
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrUnlockLoaderLock
+[?] Ordinal: 162, RVA: 00036C6C
+[?] Function Entry Ptr: 0059706C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrUnregisterDllNotification
+[?] Ordinal: 163, RVA: 0007221C
+[?] Function Entry Ptr: 005D261C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrVerifyImageMatchesChecksum
+[?] Ordinal: 164, RVA: 000A06CF
+[?] Function Entry Ptr: 00600ACF
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrVerifyImageMatchesChecksumEx
+[?] Ordinal: 165, RVA: 000A014A
+[?] Function Entry Ptr: 0060054A
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrWx86FormatVirtualImage
+[?] Ordinal: 166, RVA: 000A5DD5
+[?] Function Entry Ptr: 006061D5
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrpResGetMappingSize
+[?] Ordinal: 167, RVA: 0003CA8C
+[?] Function Entry Ptr: 0059CE8C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: LdrpResGetResourceDirectory
+[?] Ordinal: 168, RVA: 0003CC48
+[?] Function Entry Ptr: 0059D048
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD4Final
+[?] Ordinal: 169, RVA: 000DAC61
+[?] Function Entry Ptr: 0063B061
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD4Init
+[?] Ordinal: 170, RVA: 000DAB14
+[?] Function Entry Ptr: 0063AF14
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD4Update
+[?] Ordinal: 171, RVA: 000DAB48
+[?] Function Entry Ptr: 0063AF48
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD5Final
+[?] Ordinal: 172, RVA: 00077CD4
+[?] Function Entry Ptr: 005D80D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD5Init
+[?] Ordinal: 173, RVA: 00077B81
+[?] Function Entry Ptr: 005D7F81
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: MD5Update
+[?] Ordinal: 174, RVA: 00077D62
+[?] Function Entry Ptr: 005D8162
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .data [00100000]
+[?] Found Function: NlsAnsiCodePage
+[?] Ordinal: 175, RVA: 00100010
+[?] Function Entry Ptr: 00646010
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .data [00100000]
+[?] Found Function: NlsMbCodePageTag
+[?] Ordinal: 176, RVA: 00100003
+[?] Function Entry Ptr: 00646003
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .data [00100000]
+[?] Found Function: NlsMbOemCodePageTag
+[?] Ordinal: 177, RVA: 00100004
+[?] Function Entry Ptr: 00646004
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAcceptConnectPort
+[?] Ordinal: 178, RVA: 00020210
+[?] Function Entry Ptr: 00580610
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheck
+[?] Ordinal: 179, RVA: 00020228
+[?] Function Entry Ptr: 00580628
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckAndAuditAlarm
+[?] Ordinal: 180, RVA: 0001FC68
+[?] Function Entry Ptr: 00580068
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckByType
+[?] Ordinal: 181, RVA: 00020240
+[?] Function Entry Ptr: 00580640
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckByTypeAndAuditAlarm
+[?] Ordinal: 182, RVA: 00020114
+[?] Function Entry Ptr: 00580514
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckByTypeResultList
+[?] Ordinal: 183, RVA: 00020258
+[?] Function Entry Ptr: 00580658
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckByTypeResultListAndAuditAlarm
+[?] Ordinal: 184, RVA: 00020270
+[?] Function Entry Ptr: 00580670
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAccessCheckByTypeResultListAndAuditAlarmByHandle
+[?] Ordinal: 185, RVA: 00020288
+[?] Function Entry Ptr: 00580688
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAddAtom
+[?] Ordinal: 186, RVA: 0001FF58
+[?] Function Entry Ptr: 00580358
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAddBootEntry
+[?] Ordinal: 187, RVA: 000202A0
+[?] Function Entry Ptr: 005806A0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAddDriverEntry
+[?] Ordinal: 188, RVA: 000202B8
+[?] Function Entry Ptr: 005806B8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAdjustGroupsToken
+[?] Ordinal: 189, RVA: 000202D0
+[?] Function Entry Ptr: 005806D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAdjustPrivilegesToken
+[?] Ordinal: 190, RVA: 0001FEC0
+[?] Function Entry Ptr: 005802C0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlertResumeThread
+[?] Ordinal: 191, RVA: 000202E8
+[?] Function Entry Ptr: 005806E8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlertThread
+[?] Ordinal: 192, RVA: 00020304
+[?] Function Entry Ptr: 00580704
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAllocateLocallyUniqueId
+[?] Ordinal: 193, RVA: 00020320
+[?] Function Entry Ptr: 00580720
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAllocateReserveObject
+[?] Ordinal: 194, RVA: 0002033C
+[?] Function Entry Ptr: 0058073C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAllocateUserPhysicalPages
+[?] Ordinal: 195, RVA: 00020354
+[?] Function Entry Ptr: 00580754
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAllocateUuids
+[?] Ordinal: 196, RVA: 0002036C
+[?] Function Entry Ptr: 0058076C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAllocateVirtualMemory
+[?] Ordinal: 197, RVA: 0001FAC0
+[?] Function Entry Ptr: 0057FEC0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcAcceptConnectPort
+[?] Ordinal: 198, RVA: 00020388
+[?] Function Entry Ptr: 00580788
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCancelMessage
+[?] Ordinal: 199, RVA: 000203A0
+[?] Function Entry Ptr: 005807A0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcConnectPort
+[?] Ordinal: 200, RVA: 000203B8
+[?] Function Entry Ptr: 005807B8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCreatePort
+[?] Ordinal: 201, RVA: 000203D0
+[?] Function Entry Ptr: 005807D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCreatePortSection
+[?] Ordinal: 202, RVA: 000203E8
+[?] Function Entry Ptr: 005807E8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCreateResourceReserve
+[?] Ordinal: 203, RVA: 00020400
+[?] Function Entry Ptr: 00580800
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCreateSectionView
+[?] Ordinal: 204, RVA: 00020418
+[?] Function Entry Ptr: 00580818
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcCreateSecurityContext
+[?] Ordinal: 205, RVA: 00020430
+[?] Function Entry Ptr: 00580830
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcDeletePortSection
+[?] Ordinal: 206, RVA: 00020448
+[?] Function Entry Ptr: 00580848
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcDeleteResourceReserve
+[?] Ordinal: 207, RVA: 00020460
+[?] Function Entry Ptr: 00580860
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcDeleteSectionView
+[?] Ordinal: 208, RVA: 00020478
+[?] Function Entry Ptr: 00580878
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcDeleteSecurityContext
+[?] Ordinal: 209, RVA: 00020490
+[?] Function Entry Ptr: 00580890
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcDisconnectPort
+[?] Ordinal: 210, RVA: 000204A8
+[?] Function Entry Ptr: 005808A8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcImpersonateClientOfPort
+[?] Ordinal: 211, RVA: 000204C0
+[?] Function Entry Ptr: 005808C0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcOpenSenderProcess
+[?] Ordinal: 212, RVA: 000204D8
+[?] Function Entry Ptr: 005808D8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcOpenSenderThread
+[?] Ordinal: 213, RVA: 000204F0
+[?] Function Entry Ptr: 005808F0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcQueryInformation
+[?] Ordinal: 214, RVA: 00020508
+[?] Function Entry Ptr: 00580908
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcQueryInformationMessage
+[?] Ordinal: 215, RVA: 00020520
+[?] Function Entry Ptr: 00580920
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcRevokeSecurityContext
+[?] Ordinal: 216, RVA: 00020538
+[?] Function Entry Ptr: 00580938
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcSendWaitReceivePort
+[?] Ordinal: 217, RVA: 00020550
+[?] Function Entry Ptr: 00580950
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAlpcSetInformation
+[?] Ordinal: 218, RVA: 00020568
+[?] Function Entry Ptr: 00580968
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtApphelpCacheControl
+[?] Ordinal: 219, RVA: 0001FFD4
+[?] Function Entry Ptr: 005803D4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAreMappedFilesTheSame
+[?] Ordinal: 220, RVA: 00020580
+[?] Function Entry Ptr: 00580980
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtAssignProcessToJobObject
+[?] Ordinal: 221, RVA: 0002059C
+[?] Function Entry Ptr: 0058099C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCallbackReturn
+[?] Ordinal: 222, RVA: 0001F8D8
+[?] Function Entry Ptr: 0057FCD8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCancelIoFile
+[?] Ordinal: 223, RVA: 0002017C
+[?] Function Entry Ptr: 0058057C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCancelIoFileEx
+[?] Ordinal: 224, RVA: 000205B8
+[?] Function Entry Ptr: 005809B8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCancelSynchronousIoFile
+[?] Ordinal: 225, RVA: 000205D0
+[?] Function Entry Ptr: 005809D0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCancelTimer
+[?] Ordinal: 226, RVA: 000201DC
+[?] Function Entry Ptr: 005805DC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtClearEvent
+[?] Ordinal: 227, RVA: 0001FE74
+[?] Function Entry Ptr: 00580274
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtClose
+[?] Ordinal: 228, RVA: 0001F9E0
+[?] Function Entry Ptr: 0057FDE0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCloseObjectAuditAlarm
+[?] Ordinal: 229, RVA: 0001FE2C
+[?] Function Entry Ptr: 0058022C
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCommitComplete
+[?] Ordinal: 230, RVA: 000205E8
+[?] Function Entry Ptr: 005809E8
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCommitEnlistment
+[?] Ordinal: 231, RVA: 00020600
+[?] Function Entry Ptr: 00580A00
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCommitTransaction
+[?] Ordinal: 232, RVA: 00020618
+[?] Function Entry Ptr: 00580A18
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCompactKeys
+[?] Ordinal: 233, RVA: 00020630
+[?] Function Entry Ptr: 00580A30
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCompareTokens
+[?] Ordinal: 234, RVA: 00020648
+[?] Function Entry Ptr: 00580A48
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCompleteConnectPort
+[?] Ordinal: 235, RVA: 00020660
+[?] Function Entry Ptr: 00580A60
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCompressKey
+[?] Ordinal: 236, RVA: 00020678
+[?] Function Entry Ptr: 00580A78
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtConnectPort
+[?] Ordinal: 237, RVA: 00020694
+[?] Function Entry Ptr: 00580A94
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtContinue
+[?] Ordinal: 238, RVA: 0001FEF0
+[?] Function Entry Ptr: 005802F0
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateDebugObject
+[?] Ordinal: 239, RVA: 000206AC
+[?] Function Entry Ptr: 00580AAC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateDirectoryObject
+[?] Ordinal: 240, RVA: 000206C4
+[?] Function Entry Ptr: 00580AC4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateEnlistment
+[?] Ordinal: 241, RVA: 000206DC
+[?] Function Entry Ptr: 00580ADC
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateEvent
+[?] Ordinal: 242, RVA: 0001FF74
+[?] Function Entry Ptr: 00580374
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateEventPair
+[?] Ordinal: 243, RVA: 000206F4
+[?] Function Entry Ptr: 00580AF4
+[?]--
+[?] Found RVA in Section : .text [00010000]
+[?] Found RVA in Section : .text [00010000]
+[?] Found Function: NtCreateFile
+[?] Ordinal: 244, RVA: 000200B4
+[?] Function Entry Ptr: 005804B4
+[?]--
+[*] Function Found @ 005804B4
+[*] Decoded Instructions...
+ 777900b4 (05) b852000000               MOV EAX, 0x52
+ 777900b9 (02) 33c9                     XOR ECX, ECX
+ 777900bb (04) 8d542404                 LEA EDX, [ESP+0x4]
+ 777900bf (07) 64ff15c0000000           CALL DWORD [FS:0xc0]
+ 777900c6 (03) 83c404                   ADD ESP, 0x4
+ 777900c9 (03) c22c00                   RET 0x2c
+ 777900cc (05) b853000000               MOV EAX, 0x53
+ 777900d1 (02) 33c9                     XOR ECX, ECX
+ 777900d3 (04) 8d542404                 LEA EDX, [ESP+0x4]
+ 777900d7 (07) 64ff15c0000000           CALL DWORD [FS:0xc0]
+[*] Decoded Instruction Size: 42
